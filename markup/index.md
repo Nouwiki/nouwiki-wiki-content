@@ -12,6 +12,7 @@ The official wiki of Nouwiki. Nouwiki is currently in pre-alpha.
 - Setup
   - [Locally](<Setup: Locally>)
   - [GitHub](<Setup: Github>)
+  - Heroku
 - Modes
   - [Static](<Mode: Static>)
   - [Dynamic](<Mode: Dynamic>)
