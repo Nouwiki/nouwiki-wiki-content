@@ -16,7 +16,6 @@ You can host your wiki:
   - Or fully featured nouwiki serving with `nouwiki serve your_wiki`
 - Services
   - GitHub Pages
-  - Heroku
   - Dropbox
   - etc
-- Deticated server
+- Deticated server (such as Heroku or DigitalOcean)
