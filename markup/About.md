@@ -14,7 +14,7 @@ You can host your wiki:
   - `file:///`
   - Using simple http servers such as `http-server` or `python -m SimpleHTTPServer`
   - Or fully featured nouwiki serving with `nouwiki serve your_wiki`
-- Services
+- Static Services
   - GitHub Pages
   - Dropbox
   - etc
