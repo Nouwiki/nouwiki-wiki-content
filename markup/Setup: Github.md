@@ -6,15 +6,15 @@ js = []
 
 # Setup: Github
 
-First create `yourwiki` and `yourwiki_content` repos, then:
+First create `yourwiki` and `yourwiki-content` repos, then:
 
 ```
 cd ./yourwiki
 git init
-git remote add origin https://github.com/username/yourwiki.git
-git submodule add https://github.com/username/yourwiki_content ./wiki
+git remote add origin https://github.com/UserName/yourwiki.git
+git submodule add https://github.com/UserName/yourwiki-content ./wiki
 cd wiki
-git remote add origin https://github.com/username/yourwiki_wiki.git
+git remote add origin https://github.com/UserName/yourwiki-content.git
 ```
 
-Finally push to both repos and create a gh-pages branch for the `yourwiki` repo, and then  your good to go, everything will be served through the `dynamic` mode and all you have to do to create new content is to update the `yourwiki_content` repo.
+Finally push to both repos and create a gh-pages branch for the `yourwiki` repo, and then  you're good to go, everything will be served through the `dynamic` mode and all you have to do to create new content is to update the `yourwiki-content` repo.
