@@ -6,7 +6,7 @@ js = []
 
 # Nouwiki Wiki
 
-The official wiki of Nouwiki.
+The official wiki of Nouwiki. Nouwiki is currently in pre-alpha.
 
 - [About]()
 - Setup
