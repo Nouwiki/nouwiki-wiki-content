@@ -4,6 +4,11 @@ css = []
 js = []
 +++
 
-# nouwiki-wiki
+# Nouwiki Wiki
 
-Welcome to your new wiki!
+The official wiki of Nouwiki.
+
+- [About]()
+- Setup
+	- [Locally](<Setup: Locally>)
+    - [GitHub](<Setup: Github>)
