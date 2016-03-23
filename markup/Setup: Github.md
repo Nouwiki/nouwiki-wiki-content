@@ -6,7 +6,7 @@ js = []
 
 # Setup: Github
 
-First create `yourwiki` and `yourwiki-content` repos, then:
+First create `yourwiki` and `yourwiki-content` repos, then hook them into your wiki:
 
 ```
 cd ./yourwiki
@@ -17,14 +17,16 @@ cd wiki
 git remote add origin https://github.com/UserName/yourwiki-content.git
 ```
 
-Finally push to both repos and create a gh-pages branch for the `yourwiki` repo.
+Then push to both repos and create a gh-pages branch for the `yourwiki` repo.
 
-Now for someone else to edit its recommended that you clone the gh-pages repo instead of the content repo, but pull in the content repo as well, then push the content repo and an updated reference in the gh-pages repo to that new content repo commit.
+To edit and push those edits you either edit in-browser through `nouwiki serve` where changes automatically get commited or you edit through a text editor and you commit them yourself, and finally you push your content repo, but don't forget to update there submodule reference in the main repo to the latest comment as well.
+
+The following are the steps necissary to update the wiki:
 
 ```
 git clone https://github.com/UserName/yourwiki.git
 cd ./yourwiki
-git clone https://github.com/01AutoMonkey/yourwiki-content.git ./wiki
+git clone https://github.com/UserName/yourwiki-content.git ./wiki
 # *edit in-browser*
 cd ./wiki
 git push
