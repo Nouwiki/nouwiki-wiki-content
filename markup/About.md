@@ -6,7 +6,7 @@ js = []
 
 # About
 
-Nouwiki is a hackable, flexible, wiki software for personal to wikipedia-sized projects that's easy to use, works _everywhere_ and can be served as a [fully-featured wiki](<Mode: Nouwiki>), a [dynamic](<Mode: Dynamic>) wiki or simply as a jekyll-style [static](<Mode: Static>) wiki.
+Nouwiki will be a hackable and flexible wiki software for personal to wikipedia sized projects that's easy to use, works _everywhere_ and can be served as a [fully-featured wiki](<Mode: Nouwiki>), a [dynamic](<Mode: Dynamic>) wiki or simply as a jekyll-style [static](<Mode: Static>) wiki. It's currently in pre-alpha.
 
 You can host your wiki:
 
@@ -19,4 +19,3 @@ You can host your wiki:
   - Dropbox
   - etc
 - Deticated server (such as Heroku or DigitalOcean)
-<!-- -->
