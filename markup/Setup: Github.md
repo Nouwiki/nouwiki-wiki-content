@@ -33,7 +33,7 @@ git clone https://github.com/UserName/yourwiki-content.git ./wiki
 cd ./wiki
 git push
 cd ..
-git submodule update
+git submodule init
 git add --all
 git commit -m "submodule reference update"
 git push -u origin master && git push -f origin master:gh-pages
