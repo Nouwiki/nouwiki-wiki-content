@@ -17,7 +17,20 @@ cd wiki
 git remote add origin https://github.com/UserName/yourwiki-content.git
 ```
 
-Finally push to both repos and create a gh-pages branch for the `yourwiki` repo, and then  you're good to go, everything will be served through the `dynamic` mode and all you have to do to create new content is to update the `yourwiki-content` repo.
+Finally push to both repos and create a gh-pages branch for the `yourwiki` repo.
 
-Since GitHub Pages hosting is expected to be fairly common we plan to make this doable with fewer commands.
-<!-- -->
+Now for someone else to edit its recommended that you clone the gh-pages repo instead of the content repo, but pull in the content repo as well, then push the content repo and an updated reference in the gh-pages repo to that new content repo commit.
+
+```
+git clone https://github.com/UserName/yourwiki.git
+cd ./yourwiki
+git clone https://github.com/01AutoMonkey/yourwiki-content.git ./wiki
+# *edit in-browser*
+cd ./wiki
+git push
+cd ..
+git submodule update
+git add --all
+git commit -m "submodule reference update"
+git push -u origin master && git push -f origin master:gh-pages
+```
