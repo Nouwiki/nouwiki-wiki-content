@@ -9,6 +9,7 @@ js = []
 The official wiki of Nouwiki. Nouwiki is currently in pre-alpha.
 
 - [About]()
+- [Install]()
 - Setup
   - [Locally](<Setup: Locally>)
   - [GitHub Pages](<Setup: Github>)
