@@ -19,6 +19,12 @@ cd wiki
 git remote add origin https://github.com/UserName/yourwiki-content.git
 ```
 
+Simplefied:
+
+```
+nouwiki github ./yourwiki
+```
+
 Then push to both repos and create a gh-pages branch for the `yourwiki` repo.
 
 To then edit and push those edits you either edit in-browser through `nouwiki serve` where changes automatically get commited or you edit through a text editor and you commit them yourself, and finally you push to your content repo, but don't forget to update the submodule reference in the main repo to the latest commit as well.
