@@ -49,5 +49,6 @@ Simplified:
 
 ```
 nouwiki clone https://github.com/UserName/yourwiki.git
+# *edit in-browser*
 nouwiki push ./yourwiki
 ```
