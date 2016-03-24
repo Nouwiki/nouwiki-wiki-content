@@ -38,3 +38,10 @@ git add --all
 git commit -m "submodule reference update"
 git push -u origin master && git push -f origin master:gh-pages
 ```
+
+Simplified:
+
+```
+nouwiki clone https://github.com/UserName/yourwiki.git
+nouwiki push ./yourwiki
+```
