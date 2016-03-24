@@ -19,5 +19,4 @@ The official wiki of Nouwiki. Nouwiki is currently in pre-alpha.
   - [Static](<Mode: Static>)
   - [Dynamic](<Mode: Dynamic>)
   - [Nouwiki](<Mode: Nouwiki>)
-  
-<!-- -->
+- [Ideas]()
