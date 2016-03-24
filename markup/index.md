@@ -20,3 +20,4 @@ The official wiki of Nouwiki. Nouwiki is currently in pre-alpha.
   - [Dynamic](<Mode: Dynamic>)
   - [Nouwiki](<Mode: Nouwiki>)
 - [Ideas]()
+- [Issues]()
