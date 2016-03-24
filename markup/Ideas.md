@@ -6,4 +6,4 @@ js = []
 
 # Ideas
 
-Empty page.
+- Standalone dynamic index.html file that you can use to view and perhaps even edit (git-only backend) wikis, an app in a html file, just for more flexibility, most people will use the Nouwiki Editor for these kinds of things.
