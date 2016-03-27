@@ -40,7 +40,7 @@ cd ./wiki
 git push
 cd ..
 git submodule init
-git add --all
+git add ./wiki
 git commit -m "submodule reference update"
 git push -u origin master && git push -f origin master:gh-pages
 ```
